@@ -6,7 +6,31 @@ using System.Threading.Tasks;
 
 namespace LemonadeStand
 {
-    class Day
+   public class Day
     {
+        public void GetForcast()
+        {
+            Random rnd = new Random();
+
+            string[] Forcast = { "Rain", "Overcast", "Sunny", "Foggy", "Windy" };
+            int index = rnd.Next(0, 6);
+
+            Console.WriteLine("The current forcast calls for {0} conditions", Forcast[index]);
+            Console.ReadLine();
+        }
+
+        public void GetTempreture()
+        {
+            Random rnd = new Random();
+
+            int[] Tempreture = {100, 95, 85, 80, 50, 45};
+            int index = rnd.Next(0, 6);
+
+            Console.WriteLine("With a high tempreture of: {0}", Tempreture[index]); 
+            Console.ReadLine();
+
+        }
+
+
     }
 }
