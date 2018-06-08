@@ -15,8 +15,8 @@ namespace LemonadeStand
             string[] Forcast = { "Rain", "Overcast", "Sunny", "Foggy", "Windy" };
             int index = rnd.Next(0, 6);
 
-            Console.WriteLine("The current forcast calls for {0} conditions", Forcast[index]);
-            Console.ReadLine();
+            Console.WriteLine("The current forcast calls for {0,6} conditions", Forcast[index]);
+        
         }
 
         public void GetTempreture()
@@ -27,10 +27,9 @@ namespace LemonadeStand
             int index = rnd.Next(0, 6);
 
             Console.WriteLine("With a high tempreture of: {0}", Tempreture[index]);
-            Console.ReadLine();
 
         }
 
-
+     
     }
 }

@@ -8,7 +8,10 @@ namespace LemonadeStand
 {
    public class Day
     {
-      
+        //public List<string> customers = new List<string>();
+            
+
+            
 
     }
 }
