@@ -6,13 +6,12 @@ using System.Threading.Tasks;
 
 namespace LemonadeStand
 {
-    class Program
+    class Ice_Cubes : Items
     {
-        static void Main(string[] args)
-        {
-            Game game = new Game();
-            game.RunGame();
-            
-        }
+       public Ice_Cubes()
+       {
+            Price = .05;
+       }
+       
     }
 }

@@ -45,11 +45,18 @@
     <Compile Include="Customers.cs" />
     <Compile Include="Day.cs" />
     <Compile Include="Game.cs" />
+    <Compile Include="Ice Cubes.cs" />
+    <Compile Include="Inventory.cs" />
+    <Compile Include="Items.cs" />
+    <Compile Include="Lemons.cs" />
+    <Compile Include="Paper Cup.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recipes.cs" />
     <Compile Include="strings.cs" />
-    <Compile Include="Supplies.cs" />
+    <Compile Include="Store.cs" />
+    <Compile Include="Sugar.cs" />
     <Compile Include="UserInterFace.cs" />
     <Compile Include="Weather.cs" />
   </ItemGroup>

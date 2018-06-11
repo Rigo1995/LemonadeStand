@@ -7,20 +7,22 @@ using System.Threading.Tasks;
 namespace LemonadeStand
 {
 
-    class Game
+    public class Game
     {
        
-        public Game()
+        public void RunGame()
         {
             Weather weather = new Weather();
             weather.GetForcast();
             weather.GetTempreture();
             Console.ReadLine();
 
-            PotentialCustomer potentialCustomer = new PotentialCustomer();
-            potentialCustomer.getItemPrice();
-            potentialCustomer.displayPrice();
+            Store store = new Store();
+            store.ShowPriceOfItems();
             Console.ReadLine();
+
+            
+
 
 
         }

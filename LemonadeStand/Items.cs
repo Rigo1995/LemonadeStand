@@ -6,13 +6,10 @@ using System.Threading.Tasks;
 
 namespace LemonadeStand
 {
-    class Program
+    public abstract class Items
     {
-        static void Main(string[] args)
-        {
-            Game game = new Game();
-            game.RunGame();
-            
-        }
+        public int Quantity;
+        public double Price;
+       
     }
 }
