@@ -12,7 +12,7 @@ namespace LemonadeStand
         {
             Random rnd = new Random();
 
-            string[] Forcast = { "Rain", "Overcast", "Sunny", "Foggy", "Windy" };
+            string[] Forcast = { "Rainy", "Overcast", "Sunny", "Foggy", "Windy" };
             int index = rnd.Next(0, 6);
 
             Console.WriteLine("The current forcast calls for {0,6} conditions", Forcast[index]);

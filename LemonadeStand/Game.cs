@@ -18,8 +18,8 @@ namespace LemonadeStand
             Console.ReadLine();
 
             PotentialCustomer potentialCustomer = new PotentialCustomer();
-            potentialCustomer.displayPrice();
             potentialCustomer.getItemPrice();
+            potentialCustomer.displayPrice();
             Console.ReadLine();
 
 
