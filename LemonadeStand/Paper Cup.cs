@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace LemonadeStand
 {
-    class Paper_Cup : Items
+    public class Paper_Cup : Items
     {
+
         public Paper_Cup()
         {
-            Price = .10;
+            price = .01;
         }
-
-     //public double GetPrice = .10;
+  
 
     }
        

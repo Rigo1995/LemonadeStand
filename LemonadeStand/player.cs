@@ -6,13 +6,16 @@ using System.Threading.Tasks;
 
 namespace LemonadeStand
 {
-    class Player
+    public class Player
     {
-        public int Money = 25;
-        public int Inventory = 0;
 
-
+        public int Money;
         
+        public void player()
+        {
+            Money = 100;
+        }
+
 
 
     }

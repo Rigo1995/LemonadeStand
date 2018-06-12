@@ -9,6 +9,11 @@ namespace LemonadeStand
 
     public class Game
     {
+        Store store;
+        public Game()
+        {
+            store = new Store();
+        }
        
         public void RunGame()
         {
@@ -17,12 +22,11 @@ namespace LemonadeStand
             weather.GetTempreture();
             Console.ReadLine();
 
-            Store store = new Store();
-            store.ShowPriceOfItems();
+            
+            UserInterFace.ItemsForSale(store);
             Console.ReadLine();
 
-            
-
+            //inventory.GetNumberOfLemons();
 
 
         }

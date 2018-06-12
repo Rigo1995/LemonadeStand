@@ -54,10 +54,10 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Recipes.cs" />
-    <Compile Include="strings.cs" />
     <Compile Include="Store.cs" />
     <Compile Include="Sugar.cs" />
     <Compile Include="UserInterFace.cs" />
+    <Compile Include="Wallet.cs" />
     <Compile Include="Weather.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -8,19 +8,23 @@ namespace LemonadeStand
 {
     public class Store
     {
-        public string Item { get; set; }
-        public double Price { get; set; }
+        public Lemons lemons;
+        public Paper_Cup paper_Cup;
+        public Ice_Cubes ice_Cubes;
+        public Sugar sugar;
 
-        public void ShowPriceOfItems()
+        public Store()
         {
-            Console.WriteLine("you have $20 to start your lemonade stand!");
-            Console.WriteLine("0 - Paper Cups       $.10");
-            Console.WriteLine("1 - Lemons           $.5");
-            Console.WriteLine("2 - Cups Of Sugar    $.5");
-            Console.WriteLine("3 - Ice Cubes        $.5");
-            Console.WriteLine("4 - <exit>");
-            Console.WriteLine("what would you like to purchase?\n");
+            lemons = new Lemons();
+            paper_Cup = new Paper_Cup();
+            sugar = new Sugar();
+            ice_Cubes = new Ice_Cubes();
 
+
+        }
+
+        public void SetPrice(Items items)
+        {
 
         }
 
@@ -31,7 +35,7 @@ namespace LemonadeStand
     }     
 } 
        
-//
+
 
 
 

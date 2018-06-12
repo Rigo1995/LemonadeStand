@@ -6,13 +6,11 @@ using System.Threading.Tasks;
 
 namespace LemonadeStand
 {
-    public class Sugar : Items
+    public class Wallet
     {
-        public Sugar()
+        public class Spending
         {
-            price = .2;
-           
+               
         }
-        
     }
 }
